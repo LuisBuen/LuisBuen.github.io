@@ -1,0 +1,334 @@
+html {
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+
+body {
+  margin: auto;
+  padding: 0;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  min-width: 320px;
+  max-width: 1440px;
+}
+
+main {
+  margin: auto;
+}
+/*==================HEADER===========================*/
+#header-area {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav .button {
+  border: 1px solid #15325f;
+  border-radius: 0.25rem;
+  padding: 0.25rem 2rem;
+  display: flex;
+  align-items: center;
+  color: #15325f;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+nav .button a {
+  text-decoration: none;
+  color: #15325f;
+}
+
+#header-area .col-md-12 .arrow {
+  height: 85vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+}
+
+#header-area .col-md-12 a {
+  text-decoration: none;
+}
+
+#header-area h2 {
+  text-align: center;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 1.25rem;
+  color: #fff;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#header-area .arrow h2 {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding-bottom: 0.3rem;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+#header-area .arrow .icon-arrow-down {
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 1rem;
+}
+/*==================MAIN===========================*/
+#about {
+  padding: 3rem;
+  text-align: center;
+}
+
+.paragraph {
+  display: flex;
+}
+
+.paragraph-1 {
+  margin: 2rem;
+  width: 40rem;
+}
+
+.paragraph-2 {
+  margin: 2rem;
+  width: 40rem;
+}
+
+.text {
+  text-align: justify;
+
+}
+
+#about h1 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #0f8acb;
+  margin: 0;
+}
+
+#about h2 {
+  line-height: 1;
+  font-size: 4rem;
+  color: #15325f;
+}
+
+/*==================FACEBOOK===========================*/
+#facebook {
+  padding: 9rem;
+  color: white;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  font-stretch: semi-condensed;
+}
+
+
+#facebook h2 {
+  font-size: 3rem;
+  letter-spacing: 0.25rem;
+  font-stretch: semi-condensed;
+}
+
+#facebook p {
+  font-size: 1rem;
+}
+
+#facebook .icon-facebook {
+  font-size: 3rem;
+  text-decoration: transparent;
+  color: white;
+}
+
+#facebook a{ 
+  text-decoration: none;
+}
+/*==================CONTACT===========================*/
+
+#contact {
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+#contact h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  color: #0f8acb;
+  margin: 0;
+  text-align: center;
+}
+
+#contact .line {
+  height: 2px;
+  width: 2.1rem;
+  background-color: #0f8acb;
+  margin: 0.5rem auto;
+}
+
+#contact form {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.form input {
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid #bebebe;
+  border-radius: 0%;
+  outline: none;
+  position: relative;
+  color: #bebebe;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.form textarea {
+  appearance: none;
+  border: none;
+  border-bottom: 1px solid #bebebe;
+  border-radius: 0%;
+  outline: none;
+  resize: none;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.form-control:focus{ 
+  border-color: inherit; 
+  -webkit-box-shadow: none; 
+  box-shadow: none; 
+}
+
+input,
+button {
+  width: 60%;
+  padding: 16px 0;
+  border: 2.2px solid #bebebe;
+  border-radius: 0.5rem;
+  background-color: transparent;
+  outline: none;
+  /* text */
+  color: #bebebe;
+  font-weight: bold;
+  font-size: 0.9em;
+}
+
+button {
+  margin-top: 16px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  color: white;
+  border-color: white;
+  background-color: #15325f;
+}
+
+
+/*==================fOOTER===========================*/
+/*==================ADRESS===========================*/
+footer {
+  background-color: #15325f;
+}
+
+
+#adress .col-md-6 {
+  display: flex;
+  align-items: center;
+}
+
+#adress .col-md-6 .maps {
+  display: block;
+  margin: 0;
+  padding: 0;
+  left: 0rem;
+  width: 100%;
+}
+
+#adress h3,
+.icon-location,
+.icon-phone {
+  color: #0f8acb;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.col-md-6 span {
+  font-family: 'Fira Sans Condensed', sans-serif;
+  color: #dadde1;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+  line-height: 1.5;
+}
+
+.col-md-6 .location .line {
+  height: 1px;
+  width: 1.5rem;
+  background-color: #0f8acb;
+  margin-bottom: 1rem;
+}
+
+.back-to-top {
+  position: fixed;
+  background-color: #dadde1;
+  right:2rem;
+  bottom: 0.5rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 0.4rem;
+
+}
+/*==================ICONS===========================*/
+
+#icons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.col-md-4 .icon-facebook{
+  width: 20px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+.col-md-4 .logo-human{
+  height: 30px;
+  width: 30;
+  font-size: 2rem;
+}
+
+#icons .col-md-4 a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+#copyright {
+  color:#0f8acb;
+  font-size: 8px;
+  margin: 0 auto;
+}
+
+/*=============================RESPONSIVE===============*/
+@media (max-width: 768px) {
+  
+header-area {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  flex-direction: column;
+  position: relative;
+}
+
+padding-right: 150px;
+display: block;
+margin: 45px auto;
