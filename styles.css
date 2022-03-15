@@ -85,23 +85,12 @@ nav .button a {
   text-align: center;
 }
 
-.paragraph {
-  display: flex;
-}
-
-.paragraph-1 {
-  margin: 2rem;
-  width: 40rem;
-}
-
-.paragraph-2 {
-  margin: 2rem;
-  width: 40rem;
+#about .paragraph-1, .paragraph-2 {
+  padding: 1rem;
 }
 
 .text {
   text-align: justify;
-
 }
 
 #about h1 {
@@ -289,25 +278,33 @@ footer {
 
 #icons {
   width: 100%;
-  display: flex;
+  
   flex-direction: row;
+}
 
+#icons .icon-facebook {
+  margin: 0 auto;
+}
+
+#icons .logo-human {
+  margin: 0 auto;
 }
 
 .col-md-4 .icon-facebook{
-  width: 20px;
+  width: 1.25rem;
   font-size: 1.5rem;
   color: white;
 }
 
 
 .col-md-4 .logo-human{
-  height: 30px;
-  width: 30;
+  height: 2rem;
+  width: 1.9rem;
   font-size: 2rem;
 }
 
 #icons .col-md-4 a {
+  margin: 0 auto;
   text-decoration: none;
   transition: 0.3s;
 }
